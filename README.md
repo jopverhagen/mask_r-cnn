@@ -4,6 +4,12 @@
 
 <img src="output.png">
 
+Turns out, it’s not that hard doing object detection with opencv and numpy only.
+Even on a CPU it does a reasonable job for single images (like the example code). For live streaming (as seen in the youtube vid) GPU processing is required.
+
+This model is trained on the MSCOCO dataset (backbone architecture InceptionV2). As you can see, it does a good job detecting me as a person(97%) while wearing a helmet. Although it’s not so sure if i’m on a bicycle (55%) or motorcycle(61%)
+
+paper: https://arxiv.org/pdf/1703.06870.pdf
 
 <h2>Usage</h2>
 
