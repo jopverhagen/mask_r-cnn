@@ -10,7 +10,8 @@
 <ul>
   <li>Clone repository<li>
   <li>Download the pretrained weights from: http://download.tensorflow.org/models/object_detection/mask_rcnn_inception_v2_coco_2018_01_28.tar.gz</li>
-  <li>Extract and place "frozen_inference_graph.pb" in the same directory as run_rcnn.py
+  <li>Extract and place "frozen_inference_graph.pb" in the same directory as run_rcnn.py</li>
   <li>input.jpg: Your input image</li>
+  <li> run: run_rcnn.py</li>
   
  </ul>
